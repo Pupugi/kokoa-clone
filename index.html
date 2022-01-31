@@ -24,18 +24,22 @@
     </div>
 
     <header class="welcome-header">
-      <h1 class="welcom-header__title">Welcom to Kokoa Clone</h1>
-      <p class="welcom-header__text">
-        어서와 나의 과제야! 이메일이나 번호로 로그인해
+      <h1 class="welcome-header__title">Welcom to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        아무것도 쓰지말고 로그인버튼을 누르면 됩니다.
       </p>
     </header>
 
-    <form class="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="pasword" placeholder="Password" />
+    <form action="friends.html" method="get" class="login-form">
+      <input name="username" type="text" placeholder="Username" />
+      <input name="password" type="pasword" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kokoa Account or Password</a>
     </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
 
     <script
       src="https://kit.fontawesome.com/6478f529f2.js"
